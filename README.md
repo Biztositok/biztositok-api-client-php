@@ -13,6 +13,8 @@ $ composer require biztositok/biztositok-api-client-php
 ## Usage
 
 ``` php
+use Biztositok\Api\Client;
+
 $client = new Client([
     'api_endpoint' => 'http://example.com',
     'username' => 'test',
